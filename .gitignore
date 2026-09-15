@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+.env
+.env.*
+!.env.example
+coverage.xml
+htmlcov/
+.DS_Store
+.idea/
+# Keep experiment output and captured data out of Git unless explicitly intended.
+data/
+output/
+results/
+logs/

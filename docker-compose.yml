@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    stdin_open: true
+    tty: true
+    command: ["21"]
